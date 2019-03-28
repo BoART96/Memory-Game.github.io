@@ -64,3 +64,8 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+function changeDifficulty() {
+  const selector = document.getElementById('selector').value;
+  document.getElementById('display').value = `${selector}x${selector}`;
+}

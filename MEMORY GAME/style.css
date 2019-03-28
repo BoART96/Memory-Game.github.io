@@ -1,8 +1,10 @@
 h1{
   color: #7f8fa6;
   margin: 70px;
+}
 
-
+form {
+  color: white;
 }
 
 * {
