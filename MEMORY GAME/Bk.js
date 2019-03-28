@@ -68,12 +68,27 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 function changeDifficulty() {
   const selector = document.getElementById('selector').value;
   document.getElementById('display').value = `${selector}x${selector}`;
+  alert(`You chose: ${selector}x${selector}`);
 
-  loadDifficulty();
+  if (selector == 2) {
+    location.assign('level1.html');
+  } else if (selector == 3) {
+    location.assign('level2.html');
+  } else if (selector == 4){
+    location.assign('level3.html');
+  } else if (selector == 5) {
+    location.assign('level4.html');
+  } else {
+    location.assign('level5.html');
+  }
+
+  // loadDifficulty();
 }
 
 function loadDifficulty() {
   const levels = [...document.getElementsByClassName("Card")];
-  document.getElementsByClassName('memory-game').innerHTML;
-  console.log(levels);
+
+
+
+  console.log();
 }
