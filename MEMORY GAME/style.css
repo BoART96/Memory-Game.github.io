@@ -70,3 +70,7 @@ body {
 .main {
   transform: rotateY(180deg);
 }
+
+.userOptions:onchange {
+  src: url('level1.html');
+}
