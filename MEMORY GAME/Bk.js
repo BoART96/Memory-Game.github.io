@@ -65,7 +65,7 @@ function resetBoard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-//This is where Wandile's Edits starts
+//_________________________________________This is where Wandile's Edits starts__________________________________________________
 
 function changeDifficulty() {
   const selector = document.getElementById('selector').value;
