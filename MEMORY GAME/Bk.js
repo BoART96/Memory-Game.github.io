@@ -69,8 +69,6 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 function changeDifficulty() {
   const selector = document.getElementById('selector').value;
-  document.getElementById('display').value = `${selector}x${selector}`;
-  // document.getElementsByClassName('userOptions').style.src.url('level1.html');
 
   if (selector == 2) {
     location.assign('level1.html');
@@ -83,14 +81,4 @@ function changeDifficulty() {
   } else {
     location.assign('level5.html');
   }
-
-  // loadDifficulty();
-}
-
-function loadDifficulty() {
-  const levels = [...document.getElementsByClassName("Card")];
-
-
-
-  console.log();
 }
