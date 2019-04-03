@@ -15,20 +15,25 @@ form {
 
 body {
   height: 100vh;
-  display: flex;
+  display: grid;
+  grid-template-columns:30% 70%;
 }
 
 .memory-game {
   width: 840px;
-  height: 840px;
+  height: 100vh;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  perspective: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#anything {
+  
 }
 
 .box2 {
-  width: 440px;
+  width: auto;
   height: 640px;
   margin: auto;
   display: flex;
@@ -37,8 +42,8 @@ body {
 }
 
 .Card {
- width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
+ width: 30vh;
+  height: 32vh;
   margin: 5px;
   position: relative;
 
