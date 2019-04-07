@@ -20,68 +20,24 @@
   <section class="box2">
     <h1>Humorous Memory Game</h1>
 
-
+    <form class="userInput">
+      <ul class="difficulty">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <center><input type="range" class="userOptions" value="1" min="1" max="6" step="1" id="selector" onchange="changeDifficulty()"></center>
+      <center><output id="display"></output><center>
+    </form>
 
   </section>
 
-  <section class="memory-game">
-    
-    <div class="Card" data-framework="A">
-      <img class="main" src="img\a.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-    <div class="Card" data-framework="A">
-      <img class="main" src="img\a.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
+  <div id="gameDisplay">
 
-    <div class="Card" data-framework="BODY">
-      <img class="main" src="img\body.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-     <div class="Card" data-framework="BODY">
-      <img class="main" src="img\body.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-
-    <div class="Card" data-framework="BREAK">
-      <img class="main" src="img\br.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-    <div class="Card" data-framework="BREAK">
-      <img class="main" src="img\br.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-
-    <div class="Card" data-framework="CLASS">
-      <img class="main" src="img\Class.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-    <div class="Card" data-framework="CLASS">
-      <img class="main" src="img\Class.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-
-    <div class="Card" data-framework="EM">
-      <img class="main" src="img\em.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-    <div class="Card" data-framework="EM">
-      <img class="main" src="img\em.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-
-    <div class="Card" data-framework="HTML">
-      <img class="main" src="img\html.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-    <div class="Card" data-framework="HTML">
-      <img class="main" src="img\html.jpg.jpg" alt="" />
-      <img class="cover" src="img\ctrlZ.jpg.jpg" alt="" />
-    </div>
-    
-    </div>
-  </section>
+  </div>
 <footer>
 
 </footer>
