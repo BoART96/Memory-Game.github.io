@@ -73,7 +73,7 @@ function changeDifficulty() {
 }
 
 function loadGame(selection) {
-
+  
         if (document.getElementById('gameDisplay').hasChildNodes())
         {
           document.getElementById("gameDisplay").removeChild(gameDisplay.childNodes[0]);
@@ -90,7 +90,6 @@ function loadGame(selection) {
   //Setting up the <section></section>
   let section = document.createElement('section');
   section.classList.add('memory-game');
-  changeGrid(selection);
 
         for (var i = 0; i < selection * 2; i++) {
 
