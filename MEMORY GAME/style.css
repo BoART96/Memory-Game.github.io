@@ -28,10 +28,6 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-#anything {
-  
-}
-
 .box2 {
   width: auto;
   height: 640px;
